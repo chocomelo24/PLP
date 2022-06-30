@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation */
+nav {
+    background: #004274;
+    
+}
+.navbar{
+    height: 60px;
+}
+.navbar-toggler{
+    /* background-color: white; */
+    border: none;
+    
+}
+.navbar-toggler-icon{
+    width: 20px;
+    height: 20px;
+}
+/* Landing Section */
+#Landing {
+    height: 72vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-image: url(./landing-prop.jpg);
+    background-size: cover;
+}
+#Landing h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+#Landing p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#Landing .container {
+    margin-bottom: -230px;
+}
+.row button {
+    width: 120px;
+    background:#00aeff;
+    color: white;
+    opacity: 0.9;
+    padding: 20px;
+    font-weight: bold;
+    border-style: none;
+    box-shadow: 0px 20px 40px 0px rgb(23 136 199);
+    border-radius: 5px;
+
+} .row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.row>* {
+    max-width: 120px;
+}
+.row button:hover{
+    background-color: white;
+
+}
+/* removable class */
+/* .tester {
+    height: 100vh;
+} */
+/* Search Section */
+#Search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: -70px;
+}
+option{
+    color: lightgray;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 100;
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+    
+}
+.search {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+   margin-top: 30px;
+   background-color: #00aeff;
+   color: white;
+   font-weight: bold;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
+}
+select{
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid lightgrey;
+}
+/* Property Listing Section */
+#properties {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 35px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+.row img {
+    width: 350px;
+    height: 300px;
+    display: flex;
+}
+/* Listings section */
+.card img{
+ height: 300px;
+}
+
+/* footer Section*/
+
+footer{
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
