@@ -48,7 +48,7 @@ const properties = JSON.parse(localStorage.getItem("item"))
     bedroom: 4, 
     bathroom: 2,
     squarefeet: "5200 sqft",
-    location: "",
+    location: "7039 Plato Road, East Otto, Cattaraugus County, NY, 14729",
     image:"https://i.postimg.cc/hjp1BVcb/Home5.jpg"
    },
   {
@@ -58,7 +58,7 @@ const properties = JSON.parse(localStorage.getItem("item"))
     bedroom: 4, 
     bathroom: 2,
     squarefeet: "5200 sqft",
-    location: "",
+    location: "7039 Plato Road, East Otto, Cattaraugus County, NY, 14729",
     image:"https://i.postimg.cc/V6YWpKQk/Home6.jpg"
   },
   {
@@ -68,7 +68,7 @@ const properties = JSON.parse(localStorage.getItem("item"))
     bedroom: 4, 
     bathroom: 2,
     squarefeet: "5200 sqft",
-    location: "",
+    location: "7039 Plato Road, East Otto, Cattaraugus County, NY, 14729",
     image:"https://i.postimg.cc/26m0mzvm/Home7.jpg"
   },
   {
@@ -78,7 +78,7 @@ const properties = JSON.parse(localStorage.getItem("item"))
     bedroom: 4 , 
     bathroom: 2 ,
     squarefeet: "5200 sqft",
-    location: "",
+    location: "7039 Plato Road, East Otto, Cattaraugus County, NY, 14729",
     image:"https://i.postimg.cc/g0yKgf77/Home8.jpg"
   },
   {
@@ -88,7 +88,7 @@ const properties = JSON.parse(localStorage.getItem("item"))
     bedroom: 4, 
     bathroom: 2,
     squarefeet: "5200 sqft",
-    location: "",
+    location: "7039 Plato Road, East Otto, Cattaraugus County, NY, 14729",
     image:"https://i.postimg.cc/d0cBmq5d/Home9.jpg"
   },
   {
@@ -98,7 +98,7 @@ const properties = JSON.parse(localStorage.getItem("item"))
     bedroom: 4, 
     bathroom: 2,
     squarefeet: "5200 sqft",
-    location: "",
+    location: "7039 Plato Road, East Otto, Cattaraugus County, NY, 14729",
     image:"https://i.postimg.cc/bYV9V06q/Home10.jpg"
   },
 ];
